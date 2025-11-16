@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+:root {
+  --logo-text: #1f2937; /* gray-800 for light mode */
+}
+
+.dark {
+  --logo-text: #f3f4f6; /* gray-100 for dark mode */
+}
